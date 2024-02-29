@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.head{
+    width: 100%;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.20);
+}
+
+    .img-section{
+        margin-left: 50px;
+    }
+    
+    .img-section img{
+    width: 190px;
+    height: 27px;
+
+ }
+
+.navbar-list .list ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.navbar-list .list ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.signup-requst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 25px;
+}
+.signup-requst .btn-demo button{
+    padding: 10px;
+    border-radius: 15px;
+    border: solid black 1px;
+    background:transparent ;
+}
+
+.signup-requst .btn-demo button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.signup-requst .btn{
+    background-color:#8ed1fc;
+}
+.section-1 {
+    background: url('./header-photo-home-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-position: center 50%;
+    background-position:top 10%;
+  }
+  
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    padding-top: 120px;
+  }
+  
+  .hero-para {
+    max-width:600px;
+    
+  }
+
+  .sec-2-a{
+    display: flex;
+    
+    /* background-color: #8ed1fc; */
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+
+  }
+  .sec-2-a .sec-2-a1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    padding: 0 33px;
+  }
+  .sec-2-a .sec-2-a1 h1{
+    font-size: 34px;
+    color: #212529;
+    font: bold;
+  }
+
+  .sec-2-a .sec-2-a1 p{
+    font-size: 16px;
+    color: #212529;
+  }
+
+  .section-2-a2{
+    width: 480px;
+    height: 225px;
+
+  }
+  .section-2-a2 video{
+    width: 412px;
+    height: 225px;
+  }
+
+  .courses .course-card{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    width: 1226px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 9px 7px 1px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 9px 7px 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: 1px 9px 7px 1px rgba(0,0,0,0.20);    gap: 40px;
+  }
+  .courses .course-card img{
+    width: 370px;
+    height: 210px;
+    border-radius: 15px;
+    background-size:contain ;
+  }
+  /* .card img:hover{
+    width: 390px;
+    height: 200px;
+    border-radius: 5px;
+  } */
+
+  .cart-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .cart-info h1{
+    color: #333333;
+    font-size: 24px;
+  }
+  .card-pricess p{
+    font-size: 14px;
+    font-weight: bold;
+    columns: #333333;
+
+  }
+.price{
+    display: flex;
+    gap: 400px;
+}
+.pp{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.price .big{
+    font-size: 24px;
+    columns: #333333;
+}
+.price .small{
+    font-size: 14px;
+    color: #888888;
+    text-decoration: line-through;
+}
+
+.explore{
+ padding: 10px 40px;
+ background-color: #2192d8;
+ color: #ffffff;
+ font-weight: bold;
+ border-radius: 5px;
+}
+.explore:hover{
+    cursor: pointer;
+    background-color: #079dfa;
+}
+
+.all-couses-section{
+    margin-top: 50px;
+}
+.courses{
+    margin-top: 50px;
+
+}
